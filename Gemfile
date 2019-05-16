@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+#Mensagens de validação em português
+gem 'rails-i18n', '~> 5.1'
+
 #Adicionando bootstrap ao projeto
 gem 'twitter-bootstrap-rails'
 
