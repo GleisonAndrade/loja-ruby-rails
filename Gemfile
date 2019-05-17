@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '>= 2.5.1'
+ruby '2.5.1'
 
-gem 'wdm', '>= 0.1.0'
+#gem 'wdm', '>= 0.1.0'
 
 #Mensagens de validação em português
 gem 'rails-i18n', '~> 5.1'
@@ -76,5 +76,5 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
 end
